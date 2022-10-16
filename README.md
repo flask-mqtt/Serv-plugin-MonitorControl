@@ -15,3 +15,14 @@
 # 已知问题
 - 部分显示器无法获取UID的暂时不能使用
 TODO:在考虑上述情况如何获取唯一，并修改
+TODO:添加切换主副屏 
+``` cmd
+DisplaySwitch.exe /internal # 仅主屏
+DisplaySwitch.exe /clone # 复制
+DisplaySwitch.exe /extend # 扩展
+DisplaySwitch.exe /external # 仅副屏
+```
+TODO:添加屏幕旋转控制
+``` cmd
+Display.exe /rotate:0-270
+```
